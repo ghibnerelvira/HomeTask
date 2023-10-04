@@ -51,8 +51,25 @@ public class Homework1 {
         System.out.println();
         System.out.println(2+". Задача");
 
-        char c1='3', c2='4', c3='5';
-        System.out.println("345 -> "+(c1+", ")+(c2+", ")+(c3));
+       // char c1='3', c2='4', c3='5';
+       // System.out.println("345 -> "+(c1+", ")+(c2+", ")+(c3));
+
+
+        int abc = 345;
+        int a = abc / 100;
+        System.out.println("a= "+a);
+
+        int b =(abc/ 10) % 10;
+        System.out.println("b= "+b);
+
+        int c =abc % 10;
+        System.out.println("c= "+c);
+
+        // или
+        System.out.println("Число " + abc + " -> " + a + ", " + b + ", " + c);
+
+
+
 
     }
 }
