@@ -27,6 +27,11 @@ public class Homework1 {
         String subStr = myString.substring(0,14)+ myString.substring(18);
         System.out.println("- Вырезанная подстрока 'Java' = "+ subStr);
 
+        // или
+        int startIndex = myString.indexOf("Java");
+        System.out.println("Вариант 2: "+startIndex);
+
+
         // -> Заменить все символы “а” на “о”.
         System.out.println("- Замененные символы 'а' на 'о' = "+myString.replace('a','o'));
 
