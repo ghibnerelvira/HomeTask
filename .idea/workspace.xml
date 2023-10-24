@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48d2d9e-5794-4182-9f37-b8c188c61d2d" name="Changes" comment="Homework 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework2/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework7/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework7/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework8/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework8/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/telran/homework1/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/telran/homework1/Homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +36,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/elviraghibner/IdeaProjects/Java/HomeTask/src/main/java/de/telran/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/elviraghibner/IdeaProjects/Java/HomeTask/src/main/java/de/telran/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.telran.homework4" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Homework2">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.telran.homework1.Homework1" />
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework6.Homework1" />
       <module name="HomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.telran.homework1.*" />
+          <option name="PATTERN" value="de.telran.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,11 +67,11 @@
       </method>
     </configuration>
     <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.telran.homework2.Homework2" />
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework6.Homework2" />
       <module name="HomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.telran.homework2.*" />
+          <option name="PATTERN" value="de.telran.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +79,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.telran.homework2.Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.telran.homework2.Homework1" />
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework4.Homework3" />
       <module name="HomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.telran.homework2.*" />
+          <option name="PATTERN" value="de.telran.homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.telran.homework3.Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework3.Homework2" />
+      <module name="HomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.telran.homework5.Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework5.Homework2" />
+      <module name="HomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran.homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.telran.homework6.Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.telran.homework6.Homework3" />
+      <module name="HomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Homework2" />
-        <item itemvalue="Application.de.telran.homework2.Homework1" />
+        <item itemvalue="Application.de.telran.homework6.Homework3" />
         <item itemvalue="Application.Homework1" />
+        <item itemvalue="Application.de.telran.homework5.Homework2" />
+        <item itemvalue="Application.Homework3" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +166,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695757432625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework 1">
+      <option name="closed" value="true" />
+      <created>1696456060516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696456060516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework 1">
+      <option name="closed" value="true" />
+      <created>1696962307986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696962307986</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework 1">
+      <option name="closed" value="true" />
+      <created>1697228794463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697228794464</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
