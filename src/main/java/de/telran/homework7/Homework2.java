@@ -20,7 +20,32 @@ public class Homework2 {
     // Снято 1, осталось = 2
     // Снято 1, Осталось = 1
     // Снято 1, осталось = 0
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        int N = 21;
+        int days = daysToWithdrawAll(N);
+        System.out.println("Для снятия всех денег потребуется " + days + " дней.");
+
+
+    }
+
+    public static int daysToWithdrawAll(int N) {
+        int days = 0;
+
+        while (N > 0) {
+            int maxWithdrawal = 1;
+
+            for (int i = 2; i <= N; i++) {
+                if (N % i == 0) {
+                    maxWithdrawal = i;
+                    break;
+                }
+            }
+
+            N -= maxWithdrawal;
+            days++;
+        }
+
+        return days;
     }
 }
