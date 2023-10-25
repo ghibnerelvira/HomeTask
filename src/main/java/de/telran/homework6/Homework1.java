@@ -43,6 +43,7 @@ public class Homework1 {
     }
     // Метод для проверки, открыт ли магазин в заданное время
     private static boolean isStoreOpen(LocalTime currentTime, LocalTime openingTime, LocalTime closingTime) {
-        return (!currentTime.isBefore(openingTime)) && (!currentTime.isAfter(closingTime));
+        return currentTime.isAfter(openingTime) && currentTime.isBefore(closingTime);
     }
+
 }

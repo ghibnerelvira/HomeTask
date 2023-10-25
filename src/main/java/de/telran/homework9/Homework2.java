@@ -31,7 +31,7 @@ public class Homework2 {
                     // Если значение - строка, заключаем его в одинарные кавычки
                     queryBuilder.append(key).append(" = '").append(value).append("' AND ");
                 } else {
-                    // Значение не является строкой (например, числом или булевым), не заключаем в кавычки
+                    // Значение не является строкой (например, int или boolean), не заключаем в кавычки
                     queryBuilder.append(key).append(" = ").append(value).append(" AND ");
                 }
 
